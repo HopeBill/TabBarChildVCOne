@@ -1,0 +1,6 @@
+framework module Pods_tabBarChildVCOne_Example {
+  umbrella header "Pods-tabBarChildVCOne_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+PODS:
+  - BaseClassModule (0.1.1):
+    - ResourceUtilityClass
+  - ResourceUtilityClass (0.1.7):
+    - ResourceUtilityClass/Header_M (= 0.1.7)
+    - ResourceUtilityClass/Object_M (= 0.1.7)
+    - ResourceUtilityClass/Plist_M (= 0.1.7)
+    - ResourceUtilityClass/Tool_M (= 0.1.7)
+  - ResourceUtilityClass/Header_M (0.1.7)
+  - ResourceUtilityClass/Object_M (0.1.7)
+  - ResourceUtilityClass/Plist_M (0.1.7)
+  - ResourceUtilityClass/Tool_M (0.1.7)
+  - tabBarChildVCOne (0.1.0)
+
+DEPENDENCIES:
+  - BaseClassModule
+  - ResourceUtilityClass
+  - tabBarChildVCOne (from `../`)
+
+SPEC REPOS:
+  https://github.com/LiBiYong/SpecsLibrary.git:
+    - BaseClassModule
+    - ResourceUtilityClass
+
+EXTERNAL SOURCES:
+  tabBarChildVCOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseClassModule: 4bb74609fff1e7cfdbaebe31e44611f884a89855
+  ResourceUtilityClass: 0605b81df34446f9efd6183cca26822e20ded546
+  tabBarChildVCOne: 065db593a2998b1f8d206949fad3a79335cc2384
+
+PODFILE CHECKSUM: fbc5716e5ee44d7ca8a976098ac7d04b027a6538
+
+COCOAPODS: 1.5.3
