@@ -6,11 +6,11 @@
 //  Copyright © 2019 1255418023@qq.com. All rights reserved.
 //
 
-#import <BaseClassModule/BaseClassModule.h>
+@import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface OneViewController : BaseViewController
+@interface OneViewController : UIViewController
 
 @end
 
