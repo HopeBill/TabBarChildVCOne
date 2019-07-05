@@ -1,4 +1,3 @@
-
 source 'https://github.com/LiBiYong/SpecsLibrary.git'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
@@ -6,5 +5,5 @@ platform :ios, '8.0'
 
 target 'tabBarChildVCOne_Example' do
   pod 'tabBarChildVCOne', :path => '../'
-pod  'ResourceUtilityClass'
+  pod  'ResourceUtilityClass', '~>0.2.7'
 end

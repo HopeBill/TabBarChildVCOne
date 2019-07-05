@@ -18,6 +18,7 @@
 #import "NSDictionary+Tool.h"
 #import "NSMutableAttributedString+Tool.h"
 #import "NSString+Tool.h"
+#import "UIImage+Tool.h"
 #import "UIView+Layout.h"
 #import "Helper.h"
 #import "Tool.h"

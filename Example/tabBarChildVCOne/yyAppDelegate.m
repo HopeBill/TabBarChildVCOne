@@ -7,11 +7,17 @@
 //
 
 #import "yyAppDelegate.h"
-
+#import "OneViewController.h"
 @implementation yyAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=[UIColor whiteColor];
+  
+    self.window.rootViewController=[[UIViewController alloc] initWithNibName:@"OneViewController" bundle:nil];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

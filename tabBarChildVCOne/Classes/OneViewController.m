@@ -2,7 +2,7 @@
 //  OneViewController.m
 //  tabBarChildVCOne_Example
 //
-//  Created by Bill on 4/7/2019.
+//  Created by Bill on 5/7/2019.
 //  Copyright © 2019 1255418023@qq.com. All rights reserved.
 //
 
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 /*

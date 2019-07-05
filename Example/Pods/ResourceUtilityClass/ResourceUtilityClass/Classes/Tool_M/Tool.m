@@ -8,6 +8,7 @@
 
 #import "Tool.h"
 @implementation Tool
+
 #pragma mark===自定义颜色的图片
 +(UIImage *)imageWithColor:(UIColor *)color {
     //创建1像素区域并开始图片绘图

@@ -22,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A956A72622CDE43B004EE4CB /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A72522CDE43B004EE4CB /* OneViewController.m */; };
+		A956A87522CF5035004EE4CB /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A87322CF5035004EE4CB /* OneViewController.m */; };
+		A956A87622CF5035004EE4CB /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A956A87422CF5035004EE4CB /* OneViewController.xib */; };
 		E881A1FEAD9EF02779D59F9E /* Pods_tabBarChildVCOne_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35AB8534DC8F2BDB6786007 /* Pods_tabBarChildVCOne_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +63,9 @@
 		7030623341D306FF73ADDB26 /* Pods-tabBarChildVCOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabBarChildVCOne_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tabBarChildVCOne_Example/Pods-tabBarChildVCOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A956A72422CDE43B004EE4CB /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
-		A956A72522CDE43B004EE4CB /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		A956A87222CF5035004EE4CB /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		A956A87322CF5035004EE4CB /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		A956A87422CF5035004EE4CB /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
 		B1983CFFB4FCE0260D02DDFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C35AB8534DC8F2BDB6786007 /* Pods_tabBarChildVCOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabBarChildVCOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19CA0801477F017C01C500F /* Pods-tabBarChildVCOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabBarChildVCOne_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-tabBarChildVCOne_Example/Pods-tabBarChildVCOne_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,8 +209,9 @@
 		A956A71C22CDE3C9004EE4CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A956A72422CDE43B004EE4CB /* OneViewController.h */,
-				A956A72522CDE43B004EE4CB /* OneViewController.m */,
+				A956A87222CF5035004EE4CB /* OneViewController.h */,
+				A956A87322CF5035004EE4CB /* OneViewController.m */,
+				A956A87422CF5035004EE4CB /* OneViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				A956A87622CF5035004EE4CB /* OneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,13 +328,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tabBarChildVCOne_Example/Pods-tabBarChildVCOne_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BaseClassModule/BaseClassModule.framework",
 				"${BUILT_PRODUCTS_DIR}/ResourceUtilityClass/ResourceUtilityClass.framework",
 				"${BUILT_PRODUCTS_DIR}/tabBarChildVCOne/tabBarChildVCOne.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseClassModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResourceUtilityClass.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/tabBarChildVCOne.framework",
 			);
@@ -364,10 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A956A72622CDE43B004EE4CB /* OneViewController.m in Sources */,
 				6003F59E195388D20070C39A /* yyAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* yyViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A956A87522CF5035004EE4CB /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

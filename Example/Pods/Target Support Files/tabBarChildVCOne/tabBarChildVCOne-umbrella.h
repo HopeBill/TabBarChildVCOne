@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "OneViewController.h"
 
 FOUNDATION_EXPORT double tabBarChildVCOneVersionNumber;
 FOUNDATION_EXPORT const unsigned char tabBarChildVCOneVersionString[];

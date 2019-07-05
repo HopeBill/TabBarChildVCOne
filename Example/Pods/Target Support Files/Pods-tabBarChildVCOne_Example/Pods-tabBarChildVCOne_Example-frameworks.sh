@@ -143,12 +143,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/BaseClassModule/BaseClassModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResourceUtilityClass/ResourceUtilityClass.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/tabBarChildVCOne/tabBarChildVCOne.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/BaseClassModule/BaseClassModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ResourceUtilityClass/ResourceUtilityClass.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/tabBarChildVCOne/tabBarChildVCOne.framework"
 fi
